@@ -61,10 +61,28 @@ table {
 }
 
 .container {
-	padding-left: 30px;
-	padding-right: 30px;
-	width: 960px;
-	margin: 0 auto;
+	width: 1200px;
+}
+
+/*
+	===============================================
+	Clearfix
+	===============================================
+*/
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group: after {
+	clear: both;
+}
+
+.group {
+	clear: both;
+	*zoom: 1;
 }
 
 /*
@@ -77,6 +95,11 @@ body {
 	background: rgb(255, 255, 255);
 	font-family: 'Roboto', arial, sans-serif;
 	font-size: 13px;
+}
+
+p {
+	padding: 1px;
+	margin: 1px;
 }
 
 /*
@@ -94,7 +117,7 @@ nav a {
 	padding: 7px;
 }
 
-header a:hover {
+header a:hover:not(#tools-btn) {
 	color: rgb(34, 34, 34);
 }
 
@@ -127,10 +150,12 @@ button {
 }
 
 #tools-btn {
-	height: 27px;
-	padding: 4px 15px;
-	margin-top: 33px;
-	margin-left: 16px;
+	height: 29px;
+	line-height: 29px;
+	text-align: center;
+	padding: 0 15px 8px 15px;
+	margin: 24px 0 9px -1px;
+	border: 1px solid transparent;
 }
 
 #tools-btn:hover {
@@ -149,7 +174,7 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	border-bottom: 1px solid rgb(230, 230, 230);	
+	border-bottom: 1px solid rgb(230, 230, 230);
 }
 	
 .header-nav-right li {
@@ -275,6 +300,11 @@ float: left;
 	===============================================
 */
 
+.resultCount {
+	margin-top: 138px;
+	margin-left: 165px;
+	color: rgb(102, 102, 102);
+}
 
 /* keep both search buttons horizontally centered on the page */
 .search-btn-container {
