@@ -61,7 +61,7 @@ table {
 }
 
 .container {
-	width: 1200px;
+	width: 580px;
 }
 
 /*
@@ -97,9 +97,19 @@ body {
 	font-size: 13px;
 }
 
+/*
+	===============================================
+	Typography
+	===============================================
+*/
+
 p {
 	padding: 1px;
 	margin: 1px;
+}
+
+h1 {
+	font-size: 18px;
 }
 
 /*
@@ -310,4 +320,24 @@ float: left;
 .search-btn-container {
 	width: 269px;
 	margin: 0 auto;
+}
+
+.results {
+	margin: 20px 0 0 165px;
+}
+
+.sub {
+	color: rgb(0, 102, 33);
+	font-size: 14px;
+	margin-top: 2px;
+}
+
+.single-result {
+	margin-bottom: 28px;
+}
+
+.prev {
+	margin-top: 2px;
+	line-height: 1.35em;
+	color: rgb(84, 84, 84);
 }
