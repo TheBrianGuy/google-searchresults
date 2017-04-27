@@ -78,6 +78,25 @@ table {
 	vertical-align: top;
 }
 
+.first-l-col {
+	width: 293px;
+}
+
+.first-r-col {
+	width: 287px;
+}
+
+.first-l-col,
+.first-r-col {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.first-l-col p,
+.first-r-col p {
+	width: 220px;
+}
+
 /*
 	===============================================
 	Clearfix
@@ -186,6 +205,11 @@ h1 a:hover {
 	padding: 0;
 	margin: 0;
 }
+
+.pages-sprite li:not(:nth-child(2)) {
+	color: rgb(66, 133, 244);
+}
+
 
 /*
 	===============================================
@@ -391,11 +415,13 @@ footer {
 .pages-sprite {
 	margin-top: 20px;
 	margin-left: 150px;
+	margin-bottom: 30px;
 }
 
 .pages-sprite li {
 	display: inline-block;
 	vertical-align: bottom;
+	position: relative;
 }
 
 .pages-g {
@@ -412,11 +438,26 @@ footer {
 	height: 20px;
 }
 
+.pages-o1-txt {
+	display: inline-block;
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	width: 20px;
+}
+
 .pages-o2 {
 	background: url("../images/nav_logo242.png") no-repeat;
 	background-position: -50px -10px;
 	width: 20px;
 	height: 20px;
+}
+
+.pages-o2-txt {
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	width: 20px;
 }
 
 .pages-o3 {
@@ -426,11 +467,25 @@ footer {
 	height: 20px;
 }
 
+.pages-o3-txt {
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	width: 20px;
+}
+
 .pages-o4 {
 	background: url("../images/nav_logo242.png") no-repeat;
 	background-position: -50px -10px;
 	width: 20px;
 	height: 20px;
+}
+
+.pages-o4-txt {
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	width: 20px;
 }
 
 .pages-o5 {
@@ -440,11 +495,25 @@ footer {
 	height: 20px;
 }
 
+.pages-o5-txt {
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	width: 20px;
+}
+
 .pages-o6 {
 	background: url("../images/nav_logo242.png") no-repeat;
 	background-position: -50px -10px;
 	width: 20px;
 	height: 20px;
+}
+
+.pages-o6-txt {
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	width: 20px;
 }
 
 .pages-o7 {
@@ -454,11 +523,25 @@ footer {
 	height: 20px;
 }
 
+.pages-o7-txt {
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	width: 20px;
+}
+
 .pages-o8 {
 	background: url("../images/nav_logo242.png") no-repeat;
 	background-position: -50px -10px;
 	width: 20px;
 	height: 20px;
+}
+
+.pages-o8-txt {
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	width: 20px;
 }
 
 .pages-o9 {
@@ -468,6 +551,13 @@ footer {
 	height: 20px;
 }
 
+.pages-o9-txt {
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	width: 20px;
+}
+
 .pages-o10 {
 	background: url("../images/nav_logo242.png") no-repeat;
 	background-position: -50px -10px;
@@ -475,7 +565,16 @@ footer {
 	height: 20px;
 }
 
+.pages-o10-txt {
+	position: absolute;
+	top: 30px;
+	text-align: center;
+	width: 20px;
+}
+
 .pages-gle {
+	position: relative;
+	top: 10px;
 	background: url("../images/nav_logo242.png") no-repeat;
 	background-position: -70px 0;
 	width: 45px;
