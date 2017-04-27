@@ -64,6 +64,20 @@ table {
 	width: 580px;
 }
 
+.related-split-1 {
+	width: 214px;
+}
+
+.related-split-2 {
+	width: 254px;
+}
+
+.related-split-1,
+.related-split-2 {
+	display: inline-block;
+	vertical-align: top;
+}
+
 /*
 	===============================================
 	Clearfix
@@ -97,6 +111,22 @@ body {
 	font-size: 13px;
 }
 
+.date-text {
+	style: inline;
+	color: rgb(128, 128, 128);
+}
+
+.related-searches p {
+	font-size: 14px;
+	margin-bottom: 9px;
+}
+
+#circle {
+	line-height: 15px;
+	font-size: 23px;
+	vertical-align: bottom;
+}
+
 /*
 	===============================================
 	Typography
@@ -110,6 +140,10 @@ p {
 
 h1 {
 	font-size: 18px;
+}
+
+strong {
+	font-weight: 700;
 }
 
 /*
@@ -138,6 +172,19 @@ footer a {
 
 footer a:hover {
 	color: rgb(51, 51, 51);
+}
+
+h1 a:hover {
+	text-decoration: underline;
+}
+
+.related-searches a {
+	color: rgb(26, 13, 171);
+}
+
+.location a {
+	padding: 0;
+	margin: 0;
 }
 
 /*
@@ -181,9 +228,8 @@ button {
 */
 
 header {
-	position: fixed;
-	top: 0;
-	width: 100%;
+  width: 100%;
+	height: 122px;
 	border-bottom: 1px solid rgb(230, 230, 230);
 }
 	
@@ -287,21 +333,17 @@ input:focus {
 */
 
 footer {
-	position: fixed;
-	bottom: 0;
 	background-color: rgb(242, 242, 242);
 	padding: 14px 17px;
 	width: 100%;
-	height: 42px;
+	height: 84px;
 	border-top: 1px solid rgb(230, 230, 230);
+	padding-left: 152px;
 }
 
-.footer-nav-right {
-float: right;
-}
-
-.footer-nav-left {
-float: left;
+.location {
+	color: rgb(170, 170, 170);
+	margin: 7px 0 20px 10px;
 }
 
 /*
@@ -311,9 +353,9 @@ float: left;
 */
 
 .resultCount {
-	margin-top: 138px;
-	margin-left: 165px;
-	color: rgb(102, 102, 102);
+	margin-top: 15px;
+	margin-left: 164px;
+	color: rgb(128, 128, 128);
 }
 
 /* keep both search buttons horizontally centered on the page */
@@ -340,4 +382,102 @@ float: left;
 	margin-top: 2px;
 	line-height: 1.35em;
 	color: rgb(84, 84, 84);
+}
+
+.related-h1 {
+	margin-bottom: 20px;
+}
+
+.pages-sprite {
+	margin-top: 20px;
+	margin-left: 150px;
+}
+
+.pages-sprite li {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.pages-g {
+	background: url("../images/nav_logo242.png") no-repeat;
+	background-position: 0 0;
+	width: 30px;
+	height: 30px;
+}
+
+.pages-o1 {
+	background: url("../images/nav_logo242.png") no-repeat;
+	background-position: -30px -10px;
+	width: 20px;
+	height: 20px;
+}
+
+.pages-o2 {
+	background: url("../images/nav_logo242.png") no-repeat;
+	background-position: -50px -10px;
+	width: 20px;
+	height: 20px;
+}
+
+.pages-o3 {
+	background: url("../images/nav_logo242.png") no-repeat;
+	background-position: -50px -10px;
+	width: 20px;
+	height: 20px;
+}
+
+.pages-o4 {
+	background: url("../images/nav_logo242.png") no-repeat;
+	background-position: -50px -10px;
+	width: 20px;
+	height: 20px;
+}
+
+.pages-o5 {
+	background: url("../images/nav_logo242.png") no-repeat;
+	background-position: -50px -10px;
+	width: 20px;
+	height: 20px;
+}
+
+.pages-o6 {
+	background: url("../images/nav_logo242.png") no-repeat;
+	background-position: -50px -10px;
+	width: 20px;
+	height: 20px;
+}
+
+.pages-o7 {
+	background: url("../images/nav_logo242.png") no-repeat;
+	background-position: -50px -10px;
+	width: 20px;
+	height: 20px;
+}
+
+.pages-o8 {
+	background: url("../images/nav_logo242.png") no-repeat;
+	background-position: -50px -10px;
+	width: 20px;
+	height: 20px;
+}
+
+.pages-o9 {
+	background: url("../images/nav_logo242.png") no-repeat;
+	background-position: -50px -10px;
+	width: 20px;
+	height: 20px;
+}
+
+.pages-o10 {
+	background: url("../images/nav_logo242.png") no-repeat;
+	background-position: -50px -10px;
+	width: 20px;
+	height: 20px;
+}
+
+.pages-gle {
+	background: url("../images/nav_logo242.png") no-repeat;
+	background-position: -70px 0;
+	width: 45px;
+	height: 40px;
 }
