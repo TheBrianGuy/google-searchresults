@@ -390,6 +390,7 @@ footer {
 
 .results {
 	margin: 20px 0 0 165px;
+	color: rgb(84, 84, 84);
 }
 
 .sub {
@@ -405,11 +406,15 @@ footer {
 .prev {
 	margin-top: 2px;
 	line-height: 1.35em;
-	color: rgb(84, 84, 84);
 }
 
 .related-h1 {
 	margin-bottom: 20px;
+}
+
+.col-result {
+	margin-top: 10px;
+	margin-left: 28px;
 }
 
 .pages-sprite {
