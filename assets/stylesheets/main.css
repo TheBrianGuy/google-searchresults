@@ -206,10 +206,21 @@ h1 a:hover {
 	margin: 0;
 }
 
-.pages-sprite li:not(:nth-child(2)) {
+.pages-sprite td a {
 	color: rgb(66, 133, 244);
 }
 
+#selected {
+	pointer-events: none;
+}
+
+#selectedAnchor {
+	color: rgb(0, 0, 0);
+}
+
+.pages-sprite a:hover {
+	text-decoration: underline;
+}
 
 /*
 	===============================================
@@ -413,25 +424,20 @@ footer {
 }
 
 .col-result {
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-left: 28px;
 	line-height: 18px;
 }
 
-.col-result p {
-
+.more-results {
+	margin-left: 30px;
+	line-height: 30px;
 }
 
 .pages-sprite {
 	margin-top: 20px;
 	margin-left: 150px;
-	margin-bottom: 30px;
-}
-
-.pages-sprite li {
-	display: inline-block;
-	vertical-align: bottom;
-	position: relative;
+	margin-bottom: 20px;
 }
 
 .pages-g {
@@ -448,26 +454,11 @@ footer {
 	height: 20px;
 }
 
-.pages-o1-txt {
-	display: inline-block;
-	position: absolute;
-	top: 30px;
-	text-align: center;
-	width: 20px;
-}
-
 .pages-o2 {
 	background: url("../images/nav_logo242.png") no-repeat;
 	background-position: -50px -10px;
 	width: 20px;
 	height: 20px;
-}
-
-.pages-o2-txt {
-	position: absolute;
-	top: 30px;
-	text-align: center;
-	width: 20px;
 }
 
 .pages-o3 {
@@ -477,25 +468,11 @@ footer {
 	height: 20px;
 }
 
-.pages-o3-txt {
-	position: absolute;
-	top: 30px;
-	text-align: center;
-	width: 20px;
-}
-
 .pages-o4 {
 	background: url("../images/nav_logo242.png") no-repeat;
 	background-position: -50px -10px;
 	width: 20px;
 	height: 20px;
-}
-
-.pages-o4-txt {
-	position: absolute;
-	top: 30px;
-	text-align: center;
-	width: 20px;
 }
 
 .pages-o5 {
@@ -505,25 +482,11 @@ footer {
 	height: 20px;
 }
 
-.pages-o5-txt {
-	position: absolute;
-	top: 30px;
-	text-align: center;
-	width: 20px;
-}
-
 .pages-o6 {
 	background: url("../images/nav_logo242.png") no-repeat;
 	background-position: -50px -10px;
 	width: 20px;
 	height: 20px;
-}
-
-.pages-o6-txt {
-	position: absolute;
-	top: 30px;
-	text-align: center;
-	width: 20px;
 }
 
 .pages-o7 {
@@ -533,25 +496,11 @@ footer {
 	height: 20px;
 }
 
-.pages-o7-txt {
-	position: absolute;
-	top: 30px;
-	text-align: center;
-	width: 20px;
-}
-
 .pages-o8 {
 	background: url("../images/nav_logo242.png") no-repeat;
 	background-position: -50px -10px;
 	width: 20px;
 	height: 20px;
-}
-
-.pages-o8-txt {
-	position: absolute;
-	top: 30px;
-	text-align: center;
-	width: 20px;
 }
 
 .pages-o9 {
@@ -561,25 +510,11 @@ footer {
 	height: 20px;
 }
 
-.pages-o9-txt {
-	position: absolute;
-	top: 30px;
-	text-align: center;
-	width: 20px;
-}
-
 .pages-o10 {
 	background: url("../images/nav_logo242.png") no-repeat;
 	background-position: -50px -10px;
 	width: 20px;
 	height: 20px;
-}
-
-.pages-o10-txt {
-	position: absolute;
-	top: 30px;
-	text-align: center;
-	width: 20px;
 }
 
 .pages-gle {
@@ -589,4 +524,17 @@ footer {
 	background-position: -70px 0;
 	width: 45px;
 	height: 40px;
+}
+
+.next {
+	background: url("../images/next.png") no-repeat;
+	background-position: -147px -5px;
+	width: 20px;
+	height: 20px;
+}
+
+.pages-sprite td {
+	height: 50px;
+	line-height: 35px;
+	text-align: center;
 }
