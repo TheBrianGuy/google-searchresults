@@ -197,7 +197,7 @@ h1 a:hover {
 	text-decoration: underline;
 }
 
-.related-searches a {
+.results a {
 	color: rgb(26, 13, 171);
 }
 
@@ -415,6 +415,11 @@ footer {
 .col-result {
 	margin-top: 10px;
 	margin-left: 28px;
+	line-height: 18px;
+}
+
+.col-result p {
+
 }
 
 .pages-sprite {
